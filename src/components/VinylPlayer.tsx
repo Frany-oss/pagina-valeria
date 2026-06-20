@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
-const SONG_SRC = "/music/10  Elton John - Your Song.mp3"
+const SONG_SRC = "/music/your-song.m4a"
 
 export default function VinylPlayer() {
   const [playing, setPlaying] = useState(false)
